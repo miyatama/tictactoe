@@ -1,0 +1,116 @@
+body {
+  background-color: #08182f;
+}
+
+.game-control-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.reset_game_button {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+.cpu_panel {
+  width: 40rem;
+  height: 5rem;
+  display: flex;
+}
+
+.user-panel {
+  float: right;
+  width: 40rem;
+  height: 5rem;
+  display: flex;
+  margin-right: 0rem;
+}
+
+.geme-center-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.game-panel {
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem;
+  grid-template-rows: 5rem 5rem 5rem;
+  grid-gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.game_position_img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avator_image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avator_serifu_panel {
+  width: 25rem;
+  min-width: 25rem;
+  background-color: #A988Af;
+}
+
+.cpu_avator_serifu {
+  position: relative;
+  display: inline-block;
+  margin: 0rem 0 1.5em 15px;
+  padding: 7px 10px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.cpu_avator_serifu:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e0edff;
+}
+
+
+.cpu_avator_serifu p {
+  margin: 0;
+  padding: 0;
+}
+
+.user_avator_serifu {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 1rem 0rem 0rem;
+  padding: 7px 10px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.user_avator_serifu:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -1rem;
+  border: 15px solid transparent;
+  border-left: 15px solid #e0edff;
+}
+
+.user_avator_serifu p {
+  margin: 0;
+  padding: 0;
+}
+
